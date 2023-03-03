@@ -23,13 +23,13 @@ aside{
     /* background:blue;  */
     
     float: left;
-    height: 175px;
+    height: 165px;
     width: 30%;
 }
 content{
     /* background:blue;  */
     float: right;
-    height: 175px;
+    height: 165px;
     width: 63%;
 }
 footer{
