@@ -1,0 +1,41 @@
+code{
+    border-radius: 6px;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata;
+    padding: 24px 15px;
+    text-align: center;
+}
+header,
+aside, 
+content,
+footer{
+    margin: 0 1.5% 24px 1.5%;
+    border: 5px solid black;
+}
+footer{
+    margin-bottom: 1.5%;
+    clear: both;
+}
+header{
+    margin: 1.5%;
+}
+aside{
+    /* background:blue;  */
+    
+    float: left;
+    height: 175px;
+    width: 30%;
+}
+content{
+    /* background:blue;  */
+    float: right;
+    height: 175px;
+    width: 63%;
+}
+footer{
+    clear: both;
+}
+
+div{    border: 5px solid black;
+    margin: 1.5%;
+}

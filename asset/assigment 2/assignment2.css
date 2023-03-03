@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(67, 247, 67);
+}
+code{
+    border-radius: 6px;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata;
+    padding: 24px 15px;
+    text-align: center;
+}
+header,
+nav,
+article
+header,
+main,
+section,
+aside,
+aside,
+aside,
+footer{
+    margin: 0 1.5px 24px 1.5px;
+   border: 7px solid green;
+}
+footer{
+    margin-bottom: 1.5px;
+    clear: both;
+}
+header,
+nav,
+article,
+header,
+main,
+section{
+    float: left;
+}
+aside,
+aside,
+aside{
+    float: right;
+}
