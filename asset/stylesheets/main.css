@@ -46,7 +46,68 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* 
+===========================================================================
+Custom Styles
+===========================================================================*/
+body{
+	color: #888;
+	font: 300 16px/22px lato "Open Sans","Helvetica Neue" ,Helvetica,Arial,sans-serif;
+}
+h1{
+	font-size: 36px;
+	line-height: 44px;
+}
+h2{
+	font-size: 24px;
+	line-height: 44px;
+}
+h3{
+	font-size: 21px;
+}
+h4{
+	font-size: 18px;
+}
+h5{
+	color: #a9b2b9;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+a{
+	color: #648880;
+	text-decoration: none;
+}
+ a:hover{
+	color: #a9b2b9;
+}
+p a {
+	border-bottom: 1px solid #dfe2e5;
+}
+.logo{
+	border-top: 4px solid #648880;
+	float: left;
+	font-size: 48px;
+	font-weight: 100;
+	letter-spacing: .5;
+	line-height: 44px;
+	padding: 20px 0 22px 0;
+	width: 30%;
+}
+.tagline{
+	margin: 0px 0 5px 0;
+	padding: 50px 0 10px 0;
+	text-align: right;
+}
+.primary-nav{
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+.teaser a:hover h3{
+	color: #a9b2b9;
+}
 /*
 ==============================================================================
 GRID
@@ -110,5 +171,18 @@ padding: 10px 30px;
 HOME
 =============================================================================*/
 .hero{
+	line-height: 44px;
 	padding: 22px 80px 66px 80px;
+	text-align: center;
+
+}
+.hero h2{
+	font-size: 36px;
+	clear: left;
+}
+.hero p{
+	font-size: 24px;
+}
+.nav{
+	text-align: right;
 }
